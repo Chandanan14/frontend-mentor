@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+ 
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; margin-bottom: 0;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    html,body{
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: hsl(47, 88%, 63%);
+      font-family: Figtree;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .badge{
+      padding: 5px 8px;
+      font-weight: 900;
+      border-radius: 4px;
+      color: hsl(0, 0%, 7%);
+      margin: 0;
+       background-color: hsl(47, 88%, 63%);
+       width: 70px;
+      
+       
+    }
+
+
+    .heading{
+      color: hsl(0, 0%, 7%);
+      font-size: 22px;
+      font-weight: 800;
+     
+    }
+
+    .desc{
+      color: hsl(0, 0%, 42%);
+        font-size: 16px;
+        font-weight: 500;
+       
+    }
+
+    .card{
+      background-color:  hsl(0, 0%, 100%);
+      width: 300px;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      border: 2px solid  hsl(0, 0%, 7%);
+       box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+    }
+
+    .card p {
+  margin: 0;
+}
+
+    main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info p{
+  font-weight: 900;
+}
+
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="card">
+    <img src="assets/images/illustration-article.svg" width="300px" height="auto" style="border-radius: 12px;">
+    <p class="badge">Learning</p>
+    <p>Published 21 Dec 2023</p>
+    <p class="heading"> HTML & CSS foundations</p>
+    <p class="desc">These languages are the backbone of every website, defining structure, content, and presentation. </p>
+    <div class="info">
+    <img src="assets/images/image-avatar.webp" width="40px" height="40px">
+    <p>Greg Hooper</p>
+  </div>
+  </div>
+  
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Chandana N</a>.
+  </footer>
+</body>
+</html>
