@@ -17,7 +17,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-* Live Site URL: [live site url](https://chandanan14.github.io/frontend-mentor/)
+* Live Site URL: [live site url](https://qrcodecomponent14.netlify.app/)
 
 ## My process
 
